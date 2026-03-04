@@ -50,7 +50,7 @@ with col3:
 
 st.markdown("---")
 # API URL (update this after deployment or if running locally)
-API_URL = "http://localhost:8000"
+API_URL = "https://customer-churn-prediction-hrqz.onrender.com"
 
 st.subheader("🚀 Run Prediction")
 predict_button = st.button("Predict Churn Risk", type="primary", use_container_width=True)
@@ -135,3 +135,4 @@ try:
         st.sidebar.warning(f"Backend: Warning {health_res.status_code}")
 except:
     st.sidebar.error("Backend: Offline ❌")
+
