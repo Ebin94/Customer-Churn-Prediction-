@@ -48,12 +48,12 @@ python -m streamlit run dashboard/app.py
 The Streamlit dashboard will be accessible at `http://localhost:8501`.
 
 ## 📸 Application Screenshot
-![Streamlit UI Placeholder](docs/screenshot_placeholder.png)
+<img width="1905" height="922" alt="image" src="https://github.com/user-attachments/assets/22586167-de1e-4cdf-be29-b488baa03dbf" />
 
-*(Add a beautiful screenshot of your dashboard here!)*
 
 ## ☁️ Deployment
 
 This project is deployed using Render (for the FastAPI backend) and Streamlit Cloud (for the frontend). 
 
 > **Note on Render Free Tier**: The backend is hosted on a free Render instance, which automatically spins down after periods of inactivity. If the Streamlit dashboard reports the API as "Offline" or takes a long time to load, please allow up to 60 seconds for the free-tier container to perform a 'cold start'.
+
