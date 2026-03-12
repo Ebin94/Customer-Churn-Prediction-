@@ -1,6 +1,7 @@
-# 📉 Customer Churn Prediction with MLOps
-
-📉 Customer Churn Prediction with MLOps
+# Customer Churn Prediction with MLOps
+ 
+  Customer Churn Prediction with MLOps
+  
 📌 Overview
 A production-grade Machine Learning system for predicting customer churn in telecommunications, built to demonstrate a full MLOps lifecycle — from model training and feature engineering to containerised API serving and interactive inference. The pipeline is implemented using Scikit-Learn for modelling, FastAPI for backend inference, Streamlit for the front-end dashboard, and Docker for containerisation and reproducibility.
 
@@ -57,6 +58,7 @@ The Streamlit dashboard will be accessible at 'https://h3paawdmkdcyq4tdtak6jj.st
 This project is deployed using Render (for the FastAPI backend) and Streamlit Cloud (for the frontend). 
 
 > **Note on Render Free Tier**: The backend is hosted on a free Render instance, which automatically spins down after periods of inactivity. If the Streamlit dashboard reports the API as "Offline" or takes a long time to load, please allow up to 60 seconds for the free-tier container to perform a 'cold start'.
+
 
 
 
