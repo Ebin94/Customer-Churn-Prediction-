@@ -1,10 +1,11 @@
 # 📉 Customer Churn Prediction with MLOps
 
-## 📌 Overview
-A production-ready Machine Learning system that predicts customer churn for a telecommunications company. This project goes beyond building a model in a Jupyter Notebook—it demonstrates how to train, package, serve, and consume a machine learning model using modern MLOps practices. Built with Scikit-Learn, FastAPI, Streamlit, and Docker.
+📉 Customer Churn Prediction with MLOps
+📌 Overview
+A production-grade Machine Learning system for predicting customer churn in telecommunications, built to demonstrate a full MLOps lifecycle — from model training and feature engineering to containerised API serving and interactive inference. The pipeline is implemented using Scikit-Learn for modelling, FastAPI for backend inference, Streamlit for the front-end dashboard, and Docker for containerisation and reproducibility.
 
-## 💼 Business Problem
-Customer churn (cancellation of service) is a significant challenge for telecommunication companies. Because acquiring a new customer is significantly more expensive than retaining an existing one, predicting which customers are at a high risk of canceling allows businesses to proactively target them with retention strategies (e.g., discounts, personalized support), thereby reducing churn and increasing revenue.
+💼 Business Problem
+Customer churn represents a critical revenue leakage problem in telecommunications. Given that customer acquisition costs typically outpace retention costs by a significant margin, early identification of high-risk customers enables targeted intervention — retention offers, personalised outreach, or service adjustments — before cancellation occurs. This system operationalises that identification by exposing a trained classification model as a real-time REST API, allowing downstream business systems to query churn probability at the individual customer level and trigger automated retention workflows accordingly.
 
 ## 🏗️ Architecture
 
@@ -56,5 +57,6 @@ The Streamlit dashboard will be accessible at 'https://h3paawdmkdcyq4tdtak6jj.st
 This project is deployed using Render (for the FastAPI backend) and Streamlit Cloud (for the frontend). 
 
 > **Note on Render Free Tier**: The backend is hosted on a free Render instance, which automatically spins down after periods of inactivity. If the Streamlit dashboard reports the API as "Offline" or takes a long time to load, please allow up to 60 seconds for the free-tier container to perform a 'cold start'.
+
 
 
